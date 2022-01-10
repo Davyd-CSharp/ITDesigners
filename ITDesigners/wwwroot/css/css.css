@@ -1,0 +1,456 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	list-style-type: none;
+}
+.main-screen
+{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url('Images/background_1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.main-screen .nav-bar
+{
+	width: 100%;
+	height: 8%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav-bar .navigation ul a
+{
+	text-decoration: none;
+	color: white;
+	margin-right:20px;
+}
+.nav-bar .navigation ul
+{
+	display: flex;
+}
+.nav-bar .nav-bar-logo
+{
+	font-size: 32px;
+	color: white;
+}
+.main-information
+{
+	width: 100%;
+	height: 92%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.main-information h1
+{
+	font-size: 24px;
+	font-weight: 400;
+	color: white;
+}
+.main-information h3
+{
+	font-size: 62px;
+	font-weight: 700;
+	color: white;
+}
+.numeration
+{
+	height: 20vh;
+	width: 100%;
+	font-family: 'Bebas Neue', cursive;
+	background: rgb(33,32,32);
+	background: linear-gradient(106deg, rgba(33,32,32,1) 3%, rgba(51,51,54,1) 14%, rgba(28,28,28,1) 51%, rgba(46,46,48,1) 82%, rgba(38,37,37,1) 100%);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.numeration h1
+{
+	font-size: 180px;
+	font-weight: 400;
+}
+.numeration h3
+{
+	font-size:32px;
+	color: #6CEE56;
+}
+.about-us
+{
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url('Images/background_2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.about-us .left
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.about-us .left h3
+{
+	font-size: 48px;
+	font-weight: 400;
+	color: white;
+}
+.about-us .left p
+{
+	font-size: 18px;
+	font-weight: 700;
+	color: white;
+}
+.position-about-us
+{
+	width: 100%;
+	height: 100%;
+}
+.position-about-us .left,.right
+{
+	width: 50%;
+	height: 100%;
+}
+.position-about-us
+{
+	display: flex;
+	width: 100%;
+}
+
+.offers
+{
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+	background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url('Images/background_3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.main-screen-offers
+{
+	width: 100%;
+	height: 80vh;
+}
+.main-screen-offers h1
+{
+	display: flex;
+	height: 20%;
+	font-size: 48px;
+	font-weight: 400;
+	color: #6CEE56;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+.our-offers
+{
+	display: flex;
+	width: 100%;
+	height: 80%;
+	justify-content: space-around;
+	align-items: center;
+}
+.offer
+{
+	display: flex;
+	flex-direction: column;
+	border: 3px solid white;
+	border-color: #6CEE56;
+	box-shadow: 0px 5px 32px -6px #6CEE56;
+	width: 20%;
+	height: 70%;
+	align-items: center;
+	text-align: center;
+
+}
+.offer .image
+{
+	display: flex;
+	width: 100%;
+	height: 70%;
+	align-items: center;
+	justify-content: center;
+}
+.offer .description
+{
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+}
+.offer .image img
+{
+	width: 35%;
+	height: 40%;
+	border: 1px solid grey;
+	border-radius: 50%;
+	padding: 15px;
+}
+.our-clients
+{
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+	background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url('Images/background_4.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.main-screen-our-clients
+{
+	width: 100%;
+	height: 80%;
+}
+.main-screen-our-clients h1
+{
+	color: #6CEE56;
+	text-shadow: 1px 1px 30px #6CEE56;
+	font-size: 64px;
+}
+.main-screen-our-clients ul li
+{
+	color: white;
+	font-size: 36px;
+}
+.main-screen-our-clients .content .right 
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.main-screen-our-clients .content .list 
+{
+	margin-top: 3%;
+}
+.main-screen-our-clients .left
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.contact
+{
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+	background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url('Images/background_5.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.main-screen-contact
+{
+	width: 100%;
+	height: 80vh;
+}
+.content
+{
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+.content .left, .right
+{
+	width: 50%;
+	height: 100%;
+}
+.main-screen-contact .right form
+{
+	width: 70%;
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.main-screen-contact .right
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.main-screen-contact .left
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+}
+.main-screen-contact .left h1
+{
+	font-size: 32px;
+	color: #6CEE56;
+	margin-bottom: 15px;
+}
+.main-screen-contact .left .information
+{
+	margin-left: 10%;
+}
+@media (max-width: 1200px)
+{
+	
+}
+@media (max-width: 992px)
+{
+	.numeration h1
+	{
+		font-size: 120px;
+	}
+}
+@media (max-width: 767px)
+{
+	.main-information h1
+	{
+		font-size: 17px;
+		font-weight: 400;
+		color: white;
+	}
+	.main-information h3
+	{
+		font-size: 40px;
+		font-weight: 700;
+		color: white;
+	}
+	.about-us .left h3
+	{
+		font-size: 36px;
+		font-weight: 400;
+		color: white;
+	}
+	.about-us .left p
+	{
+		font-size: 15px;
+		font-weight: 700;
+		color: white;
+	}
+	.offer .description
+	{
+		color: white;
+		font-size: 14px;
+		font-weight: 700;
+	}
+	.main-screen-our-clients h1
+	{
+		color: #6CEE56;
+		text-shadow: 1px 1px 30px #6CEE56;
+		font-size: 50px;
+	}
+	.main-screen-our-clients ul li
+	{
+		color: white;
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 550px)
+{
+	.nav-bar .nav-bar-logo
+	{
+		font-size: 24px;
+		color: white;
+	}
+
+	.nav-bar .navigation ul
+	{
+		font-size: 14px;
+	}
+	.navigation ul li a
+	{
+		margin-right: 4px;
+	}
+	.nav-bar .navigation ul a
+	{
+		text-decoration: none;
+		color: white;
+		margin-right: 10px;
+	}
+	.main-information h1
+	{
+		font-size: 14px;
+		font-weight: 400;
+		color: white;
+	}
+	.main-information h3
+	{
+		font-size: 30px;
+		font-weight: 700;
+		color: white;
+	}
+	.about-us .left h3
+	{
+		font-size: 26px;
+		font-weight: 400;
+		color: white;
+	}
+	.about-us .left p
+	{
+		font-size: 11px;
+		font-weight: 700;
+		color: white;
+	}
+	.offer .description
+	{
+		color: white;
+		font-size: 11px;
+		font-weight: 700;
+	}
+	.offer
+	{
+		display: flex;
+		flex-direction: column;
+		border: 3px solid white;
+		border-color: #6CEE56;
+		box-shadow: 0px 5px 32px -6px #6CEE56;
+		width: 20%;
+		height: 50%;
+		align-items: center;
+		text-align: center;
+
+	}
+	.main-screen-offers h1
+	{
+		display: flex;
+		height: 20%;
+		font-size: 40px;
+		font-weight: 400;
+		color: #6CEE56;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+	}
+	.main-screen-our-clients h1
+	{
+		color: #6CEE56;
+		text-shadow: 1px 1px 30px #6CEE56;
+		font-size: 40px;
+	}
+	.main-screen-our-clients ul li
+	{
+		color: white;
+		font-size: 20px;
+	}
+}
+
