@@ -2,6 +2,7 @@
 using ITDesigners.Models;
 using System.Net.Mail;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace ITDesigners.Infrastructure.Services
 {
@@ -11,12 +12,12 @@ namespace ITDesigners.Infrastructure.Services
         {
 
         }
-        public void SendAsync(Email email, CancellationToken cancellationToken)
+        public Task SendAsync(Email email, CancellationToken cancellationToken)
         {
             MailMessage mailMessage = new MailMessage(email.EmailString, "davidokhromii@gmail.com" ,"New Massage", email.Message);
             SmtpClient smtpClient = new SmtpClient("localhost", 81);
 
-            smtpClient.SendAsync(mailMessage, cancellationToken);
+            return smtpClient.SendMailAsync(mailMessage, cancellationToken);
         }
     }
 }

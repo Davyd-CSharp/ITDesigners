@@ -26,7 +26,7 @@ namespace ITDesigners.Application.Features.EmailFeatures.Command
                     throw new EmailNotCorrectException("Email not correct");
                 }
 
-                _emailService.SendAsync(new Models.Email
+                await _emailService.SendAsync(new Models.Email
                 {
                     EmailString = request.EmailString,
                     Message = request.Message
