@@ -8,7 +8,6 @@ namespace ITDesigners.Application.Features.EmailFeatures.Command
 {
     public static class SendEmail
     {
-
         public record Command(string EmailString, string Message) : IRequest;
 
         public class Handler : IRequestHandler<Command, Unit>
